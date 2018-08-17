@@ -1,0 +1,35 @@
+.portfolio .dog-picture {
+  height: 250px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.mc-content {
+  position: relative;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px
+}
+
+.title-color {
+  color: #10b8ebcc;
+}
+
+.portfolio article {
+  background: #10b8ebcc;
+  position: relative;
+  padding: 10px;
+  height: 100px;
+  color: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.portfolio article :first-child {
+  font-weight: bold
+}
+
+.portfolio article :last-child {
+  font-size: 12px
+}

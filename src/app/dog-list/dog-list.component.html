@@ -1,0 +1,28 @@
+<section class="no-padding portfolio mt-2">
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="title col-md-2 col-sm-12">
+        <div>PERRITOS EN</div>
+        <div class="title-color">ADOPCION</div>
+      </div>
+
+      <div class="title col-md-10 col-12">
+        <div class="row mb-4">
+          <!-- Iteramos por cada elemento en dogs-->
+          <div class="col-md-3 col-sm-3 col-12 mb-3 mt-2" *ngFor="let dog of dogs" >
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-fluid dog-picture" src="{{dog.media.photos.photo[2].$t}}">
+              </div>
+              <article class="material-card Cyan">
+                  <p class="mb-0">{{dog.name.$t}}</p>
+                  <p class="mb-0">{{dog.age.$t}}</p>
+              </article>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
